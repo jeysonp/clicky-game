@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "/images/77.jpg",
+    "clicked": false
+  },
+  {
+      "id":2,
+    "image": "/images/choir.jpg",
+    "clicked": false
+  },
+
+  { "id":3,
+      "image": "/images/church.jpg",
+      "clicked": false
+  },
+
+  {"id":4,
+      "image": "/images/cure.jpg",
+      "clicked": false
+  },
+
+  {"id":5,
+      "image": "/images/dmode.jpg",
+      "clicked": false
+  },
+  {"id":6,
+      "image": "/images/psychfurs.jpg",
+      "clicked": false
+  },
+
+  { "id":7,
+      "image": "/images/rem.jpg",
+      "clicked": false
+  },
+
+  { "id":8,
+      "image": "/images/simpleminds.png",
+      "clicked": false
+  },
+
+  {"id":9,
+      "image": "/images/smiths.png",
+      "clicked": false
+  },
+
+  {"id":10,
+      "image": "/images/talkheads.jpg",
+      "clicked": false
+  },
+
+  {"id":11,
+    "image": "/images/talkheads.jpg",
+    "clicked": false
+  },
+  
+  {"id":12,
+    "image": "/images/talkheads.jpg",
+    "clicked": false
+  }
+
+]
