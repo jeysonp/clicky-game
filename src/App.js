@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header';
-import Game from './components/Game';
-import BandPics from './components/BandPics';
+import Wrapper from './components/Wrapper/index.js';
+import BandCard from './components/BandCard/index.js';
+import NavBar from './components/NavBar/index.js'
+import bands from "./bands.json";
 
 
 class App extends Component {
   state = {
+    bands,
     score: 0,
     highScore: 0,
   };
@@ -14,10 +16,18 @@ class App extends Component {
 render() {
     return (
       <div className="App">
-        <Header />
-        <Game />
-        <BandPics />
-      
+        <NavBar 
+        total = {this.state.score}
+      />
+      <Wrapper>
+        {this.state.bands.map(band => (
+          <BandCard
+            id={band.id}
+            key={band.id}
+            image={band.image}
+          />
+        ))}
+      </Wrapper>
       </div>
     );
   }

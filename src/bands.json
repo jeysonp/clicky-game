@@ -35,12 +35,12 @@
   },
 
   { "id":8,
-      "image": "/images/simpleminds.png",
+      "image": "/images/simpleminds.jpg",
       "clicked": false
   },
 
   {"id":9,
-      "image": "/images/smiths.png",
+      "image": "/images/smiths.jpg",
       "clicked": false
   },
 
@@ -50,12 +50,12 @@
   },
 
   {"id":11,
-    "image": "/images/talkheads.jpg",
+    "image": "/images/u2.jpg",
     "clicked": false
   },
   
   {"id":12,
-    "image": "/images/talkheads.jpg",
+    "image": "/images/violetburn.jpg",
     "clicked": false
   }
 
